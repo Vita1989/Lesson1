@@ -1,0 +1,14 @@
+<table *ngIf="loaded">
+  <tr>
+    <td></td>
+    <td *ngFor="let c of curr">{{c}}</td>
+  </tr>
+  <tr *ngFor="let c1 of curr">
+    <td>{{c1}}</td>
+    <td *ngFor="let c2 of curr">{{rates[c2]/rates[c1] | number : '.4-4'}}</td>
+  </tr>
+  <!--<tr *ngFor="let p of people">
+    <td *ngFor="let f of fields">{{fd[f].format(p[f])}}</td>
+  </tr>-->
+</table>
+<p *ngIf="!loaded">loading...</p>

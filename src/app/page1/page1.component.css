@@ -1,0 +1,12 @@
+.p{
+  position: absolute;
+  left: 15vw;
+  width: 80vw;
+  height: 100vh;
+  line-height: 100vh;
+
+  font-size: 200px;
+  color: yellow;
+  background-color: blue;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.but{
+  height: 40px;
+  width: 12vw;
+  margin: 1vw;
+  border: 1px solid grey;
+  line-height: 40px;
+  text-align: center;
+}

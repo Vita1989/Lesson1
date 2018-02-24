@@ -1,0 +1,8 @@
+<table>
+  <tr>
+    <td *ngFor="let f of fields">{{fd[f].title}}</td>
+  </tr>
+  <tr *ngFor="let p of people">
+    <td *ngFor="let f of fields">{{fd[f].format(p[f])}}</td>
+  </tr>
+</table>
